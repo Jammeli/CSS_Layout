@@ -124,7 +124,7 @@ p{
 .cards{
     display: flex;
     justify-content: center;
-
+    animation: MoveUpDown 15s linear infinite;
 }
 h2{
     font-family: Work Sans,Arial,sans-serif;
@@ -220,6 +220,7 @@ span{
     border-radius: 10px;
     width: 15%;
     align-items: center;
+    
 }
 .card1:hover{
     opacity: 0.9;
@@ -270,7 +271,7 @@ h2{
 }
 .city{
     border-radius: 10px;
-    
+    margin-bottom: 50px;
 }
 .city:hover{
     box-shadow: 0 5px 10px 0 #d3cfc9;
@@ -321,6 +322,16 @@ h2{
     font-size: 0.8em;
     color:#3d83df;
 }
-
-
+.country option{
+    color: black;
+}
+option {
+    color: black;
+}
+svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
 
